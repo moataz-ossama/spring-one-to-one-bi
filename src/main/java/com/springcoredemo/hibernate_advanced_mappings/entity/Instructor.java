@@ -12,11 +12,14 @@ public class Instructor {
    @GeneratedValue (strategy = GenerationType.IDENTITY)
    @Column(name = "id")
 private int id;
-   @Column(name = "first_name")
+   @Column(name = "first_name_999")
 private String firstName;
-   @Column(name = "last_name_1111")
+   @Column(name = "0")
 private String lastName;
-   @Column(name = "email_111")
+
+
+   
+   @Column(name = "email")
 private String email;
    @OneToOne(cascade = CascadeType.ALL)
    @JoinColumn(name = "instructor_detail_id")
