@@ -5,6 +5,9 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "instructor")
 public class Instructor {
+
+
+
    @Id
    @GeneratedValue (strategy = GenerationType.IDENTITY)
    @Column(name = "id")
@@ -66,7 +69,7 @@ private InstructorDetails instructorDetails;
     public void setInstructorDetails(InstructorDetails instructorDetails) {
         this.instructorDetails = instructorDetails;
     }
-
+// ta3delat hany cany 2
     @Override
     public String toString() {
         return "Instructor{" +
