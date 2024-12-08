@@ -1,7 +1,7 @@
 package com.springcoredemo.hibernate_advanced_mappings.entity;
 
 import jakarta.persistence.*;
-
+//ta3del alhany cany
 @Entity
 @Table(name = "instructor")
 public class Instructor {
