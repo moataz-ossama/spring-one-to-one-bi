@@ -14,9 +14,9 @@ public class Instructor {
 private int id;
    @Column(name = "first_name_1")
 private String firstName;
-   @Column(name = "last_name_@")
+   @Column(name = "last_name_2")
 private String lastName;
-   @Column(name = "email")
+   @Column(name = "email_0")
 private String email;
    @OneToOne(cascade = CascadeType.ALL)
    @JoinColumn(name = "instructor_detail_id")
