@@ -18,11 +18,10 @@ private String firstName;
 private String lastName;
 
 
-   
-   @Column(name = "email")
+   @Column(name = "email_1")
 private String email;
    @OneToOne(cascade = CascadeType.ALL)
-   @JoinColumn(name = "instructor_detail_id")
+   @JoinColumn(name = "instructor_detail_i_d")
 private InstructorDetails instructorDetails;
 
    public Instructor (){}
