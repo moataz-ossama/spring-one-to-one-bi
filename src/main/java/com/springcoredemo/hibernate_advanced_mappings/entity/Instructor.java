@@ -12,9 +12,9 @@ public class Instructor {
    @GeneratedValue (strategy = GenerationType.IDENTITY)
    @Column(name = "id")
 private int id;
-   @Column(name = "first_name")
+   @Column(name = "first_name_1")
 private String firstName;
-   @Column(name = "last_name")
+   @Column(name = "last_name_@")
 private String lastName;
    @Column(name = "email")
 private String email;
